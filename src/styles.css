@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+	
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .description {
+        font-size: 12px;
+    }
+}
