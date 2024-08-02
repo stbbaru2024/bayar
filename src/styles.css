@@ -29,6 +29,20 @@ body, html {
     color: #fff;
 }
 
+/* Animasi berkedip */
+.blink {
+	animation: blink 1s infinite;
+}
+
+@keyframes blink {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .description {
